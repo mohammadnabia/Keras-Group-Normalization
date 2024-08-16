@@ -5,7 +5,7 @@ from keras import regularizers
 from keras import constraints
 from keras import backend as K
 
-from keras.utils.generic_utils import get_custom_objects
+from keras.utils import get_custom_objects
 
 
 class GroupNormalization(Layer):
